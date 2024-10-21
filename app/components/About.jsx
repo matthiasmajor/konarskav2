@@ -13,7 +13,7 @@ function About() {
           Dlaczego jestem dobra
         </h3>
         <h3 className="font-bold text-5xl text-[#902D2D] ml-[300px] ">
-          w tym co robię?
+          w tym co robię?TEST
         </h3>
       </div>
 
