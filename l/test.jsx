@@ -1,4 +1,4 @@
-import React from "react";
+/* import React from "react";
 import { client } from "@/lib/contentful";
 
 function test({ space }) {
@@ -32,3 +32,4 @@ export const getStaticProps = async () => {
 };
 
 export default test;
+ */

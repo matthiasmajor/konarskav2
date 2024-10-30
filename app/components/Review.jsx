@@ -5,7 +5,7 @@ import ScrollTrigger from "gsap/ScrollTrigger";
 import { useRef } from "react";
 import { BsCheck2 } from "react-icons/bs";
 import testphoto from "../../public/assets/Images/Konarska_Test.png";
-import test from "../../pages/test";
+import test from "../../l/test";
 import Image from "next/image";
 
 function Review() {
