@@ -5,10 +5,11 @@ import Image from "next/image";
 import { useForm, ValidationError } from "@formspree/react";
 import { BsTelephoneInbound } from "react-icons/bs";
 import Lottie from "lottie-react";
-import kontakt_konarska from "../.././public/assets/Lottie/Kontakt_Konarskajson";
+import kontakt_konarska from "../.././public/assets/Lottie/Kontakt_Konarska.json";
 
 function Kontakt() {
   const [state, handleSubmit] = useForm("xaygqzaz");
+  W;
   return (
     <section className="">
       <div className=" bg-black opacity-[0.8]  absolute top-0 left-0 w-full h-[73px]"></div>
