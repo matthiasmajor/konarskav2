@@ -1,3 +1,5 @@
+"use client";
+
 import React from "react";
 import { client } from "@/lib/contentful";
 import Aktualnosci_sub from "@/components/Aktualnosci_sub";
