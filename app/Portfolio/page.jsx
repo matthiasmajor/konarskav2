@@ -69,7 +69,7 @@ export default function Portfolio({ posts }) {
         <div className="w-full mt-20">
           <VerticalTimeline>
             {items.map((element) => (
-              <React.Fragment>
+              <React.Fragment key={element.date}>
                 <VerticalTimelineElement
                   visible="true"
                   contentStyle={{
