@@ -1,5 +1,3 @@
-"use client";
-
 import { createClient } from "contentful";
 
 export const client = createClient({

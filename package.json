@@ -14,7 +14,7 @@
     "@formspree/react": "^2.5.1",
     "@studio-freight/lenis": "^1.0.27",
     "clsx": "^2.0.0",
-    "contentful": "^10.6.10",
+    "contentful": "^10.15.1",
     "css-loader": "^6.8.1",
     "dist": "^0.1.2",
     "framer-motion": "^10.16.4",
