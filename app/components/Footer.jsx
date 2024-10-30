@@ -17,6 +17,7 @@ function Footer({ activeLink, setActiveLink }) {
         <ul className="font-semibold flex gap-x-5 mt-2 text-sm">
           {NaviList.map((element) => (
             <Link
+              key={element.hash}
               onClick={() => setActiveLink(element.hash)}
               href={`${element.hash}`}
             >

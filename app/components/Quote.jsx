@@ -32,7 +32,7 @@ function Quote() {
       >
         {phrase.split(" ").map((words, index) => {
           return (
-            <span className="mr-3 leading-tight  ">
+            <span key={index} className="mr-3 leading-tight  ">
               <motion.span
                 variants={slideUp}
                 className="inline-flex relative overflow-hidden text-sm sm:text-base"

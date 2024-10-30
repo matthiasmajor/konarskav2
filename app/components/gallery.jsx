@@ -56,6 +56,7 @@ export function Gallery() {
       <section className="mt-2 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-10 gap-y-10 grid relative ">
         {Data.map((item, index) => (
           <Image
+            key={index}
             className="photo max-h-48 lg:max-h-none object-cover"
             src={item.url}
             alt="zdjecie"

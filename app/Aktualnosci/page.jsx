@@ -27,6 +27,7 @@ async function Aktualnosci({ space }) {
       <div className="w-full flex flex-col items-center justify-center gap-y-20">
         {qData.map((item) => (
           <Aktualnosci_sub
+            key={item.fields}
             data={item.fields.data}
             projectName={item.fields.nazwaProjektu}
             photos={item.fields.zdjecia}

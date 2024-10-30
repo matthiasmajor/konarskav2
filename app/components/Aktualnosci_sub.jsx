@@ -14,7 +14,10 @@ function Aktualnosci_sub({ data, projectName, photos }) {
       <div className="relative flex flex-col sm:flex-row w-[80%] sm:h-[350px] lg:h-[500px] justify-center gap-x-5 sm:mt-[50px] mt-[20px] gap-y-5">
         <div className="bg-amber-400 bg-opacity-40 absolute bottom-[-40px] self-center w-1/2 h-[2px] sm:hidden"></div>
         {photos.map((item) => (
-          <div className="sm:w-1/3 sm:h-auto w-full h-[300px] ">
+          <div
+            key={item.fields}
+            className="sm:w-1/3 sm:h-auto w-full h-[300px] "
+          >
             <Image
               className="w-full h-full  object-cover rounded-lg border-4 border-black border-opacity-10"
               width={500}

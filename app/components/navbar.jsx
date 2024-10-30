@@ -86,7 +86,7 @@ function Navbar({ activeLink, setActiveLink }) {
       <nav className="hidden sm:flex items-center gap-x-8 ">
         <ul className="flex gap-x-8 mr-5 ">
           {NaviList.map((element, index) => (
-            <Link href={`${element.hash}`}>
+            <Link key={index} href={`${element.hash}`}>
               <li
                 key={index}
                 onClick={() => setActiveLink(element.hash)}
