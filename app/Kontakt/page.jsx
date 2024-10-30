@@ -5,7 +5,7 @@ import Image from "next/image";
 import { useForm, ValidationError } from "@formspree/react";
 import { BsTelephoneInbound } from "react-icons/bs";
 import Lottie from "lottie-react";
-import kontakt_konarska from "../.././public/assets/Lottie/kontakt_Konarska.json";
+import kontakt_konarska from "../.././public/assets/Lottie/Kontakt_Konarskajson";
 
 function Kontakt() {
   const [state, handleSubmit] = useForm("xaygqzaz");

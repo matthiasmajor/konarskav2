@@ -9,7 +9,7 @@ function Kontakt() {
     <div className=" relative px-4 flex flex-col items-center justify-center">
       <div className=" mt-5" id="contact">
         <h2 className="text-2xl sm:text-3xl text-center font-bold">
-          Napisz do mnie!ss
+          Napisz do mnie!
         </h2>
 
         <form

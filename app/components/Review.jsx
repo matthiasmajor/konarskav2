@@ -19,7 +19,7 @@ function Review() {
           trigger: ReviewContainer.current,
           start: "top 45%",
         },
-        xPercent: -130,
+        xPercent: 0,
         opacity: 0,
         duration: 1,
       });
@@ -31,7 +31,7 @@ function Review() {
   return (
     <section
       ref={ReviewContainer}
-      className="relative   mb-32 px-4 bg-amber-200 bg-opacity-30 py-20"
+      className="relative   mb-32 px-4 bg-slate-100 bg-opacity-30 py-20"
     >
       <div className="absolute top-0 left-0 w-full h-full review_clipper bg-white "></div>
       <div className="relative max-w-fit mx-auto">

@@ -27,7 +27,7 @@ function BreakingImage() {
 
           scrub: true,
         },
-        opacity: 0,
+        opacity: 0.2,
         duration: 2,
       });
 
@@ -54,7 +54,7 @@ function BreakingImage() {
 
           toggleActions: "play pause resume none",
         },
-        opacity: 1,
+        opacity: 0.6,
       });
     });
     return () => ctx.revert();
