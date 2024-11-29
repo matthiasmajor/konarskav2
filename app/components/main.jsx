@@ -62,7 +62,7 @@ export function Main() {
           >
             <motion.button
               whileTap={{ scale: 0.9 }}
-              className="c opacity-0 py-2 bg-amber-100 px-6 font-semibold rounded-full bg-opacity-90  text-xs sm:text-sm  "
+              className="c opacity-0 py-2 bg-amber-400 text-gray-800 px-6 font-semibold rounded-full   text-xs sm:text-sm  "
             >
               Portfolio
             </motion.button>

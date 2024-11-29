@@ -53,11 +53,11 @@ export function Gallery() {
 
   return (
     <div className=" relative px-10  ">
-      <section className="mt-2 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-10 gap-y-10 grid relative ">
+      <section className=" grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-10 gap-y-10 grid relative ">
         {Data.map((item, index) => (
           <Image
             key={index}
-            className="photo max-h-48 lg:max-h-none object-cover"
+            className="photo max-h-48 lg:max-h-none object-cover shadow-[7px_7px_6px_3px_rgba(0,0,0,0.6)]"
             src={item.url}
             alt="zdjecie"
           />

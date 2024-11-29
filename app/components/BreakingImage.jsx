@@ -26,8 +26,9 @@ function BreakingImage() {
           end: "top 30%",
 
           scrub: true,
+          /* once: true, */
         },
-        opacity: 0.2,
+        opacity: 0,
         duration: 2,
       });
 
@@ -35,26 +36,42 @@ function BreakingImage() {
         scrollTrigger: {
           trigger: container.current,
           start: "top 30%",
-          end: "bottom center",
+          end: "bottom top",
 
           scrub: true,
           pin: true,
+          /* once: true, */
           toggleActions: "play pause resume none",
         },
-        scale: 1,
+        scale: 7,
+      });
+
+      gsap.to(text.current, {
+        scrollTrigger: {
+          trigger: container.current,
+          start: "top 30%",
+          end: "bottom top",
+
+          scrub: true,
+          /* once: true, */
+
+          toggleActions: "play pause resume none",
+        },
+        scale: 3,
       });
 
       gsap.to(overlay.current, {
         scrollTrigger: {
           trigger: container.current,
           start: "top 30%",
-          end: "bottom center",
+          end: "bottom top",
 
           scrub: true,
+          /* once: true, */
 
           toggleActions: "play pause resume none",
         },
-        opacity: 0.6,
+        opacity: 0.9,
       });
     });
     return () => ctx.revert();
@@ -66,7 +83,7 @@ function BreakingImage() {
     >
       <div
         ref={photoRef}
-        className="absolute opacity-1 scale-150 -z-10 bg-[url('https://images.unsplash.com/photo-1583241800324-2b3b0683a1b2?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')] w-full h-full flex bg-cover inset-0 "
+        className="absolute opacity-1 scale-100 -z-10 bg-[url('https://images.unsplash.com/photo-1583241800324-2b3b0683a1b2?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')] w-full h-full flex bg-cover inset-0 "
       >
         <div
           ref={overlay}

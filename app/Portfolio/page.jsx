@@ -55,9 +55,7 @@ export default function Portfolio({ posts }) {
       <div className="flex flex-col items-center  relative min-h-screen px-5">
         <div className="absolute top-0 left-0 portfolio_clip w-full h-full -z-30"></div>
         <div className="text-center relative mt-28">
-          <h3 className=" text-3xl font-bold   before:absolute before:block before:text-slate-600  before:w-6 before:h-6  before:inset">
-            Portfolio
-          </h3>
+          <h3 className=" text-3xl font-bold   ">Portfolio</h3>
           <div className="x absolute bottom-[-1px] scale-0 left-0 h-1/3 w-full opacity-70 bg-amber-400 -z-10"></div>
         </div>
         {/* <div className="absolute lg:bottom-[300px] bottom-0 left-0 w-[100px] h-[200px] lg:w-[250px] lg:h-[500px] flex flex-col">

@@ -11,6 +11,17 @@ const Wspolpraca = () => {
   useLayoutEffect(() => {
     gsap.registerPlugin(ScrollTrigger);
 
+    gsap.to(".x", {
+      scrollTrigger: {
+        trigger: ".x",
+        start: "top 70%",
+        scrub: true,
+      },
+      scale: 1,
+      duration: 1,
+      ease: "power3.out",
+    });
+
     let ctx = gsap.context(() => {
       const tl = gsap.timeline({
         scrollTrigger: {
@@ -31,12 +42,12 @@ const Wspolpraca = () => {
   }, []);
 
   return (
-    <section className="mt-[500px] sm:mt-0 mb-28 ">
-      <div className="mx-auto px-4 py-2 w-fit">
-        <div></div>
-        <h3 className="text-4xl font-bold text-black text-center">
+    <section className=" mt-20 sm:mt-20  mb-28 ">
+      <div className="relative mx-auto  py-2 w-fit">
+        <h3 className="text-2xl md:text-3xl xl:text-4xl font-bold  text-center  text-slate-800">
           Współpraca
         </h3>
+        <div className="x absolute bottom-[-1px] scale-0 left-0 h-1/3 w-full opacity-70 bg-amber-400 -z-10"></div>
       </div>
       <div className="max-w-3xl mt-20 mx-auto">
         <div className="hej w-full mt-8 flex items-center justify-around ">
