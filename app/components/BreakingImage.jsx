@@ -28,7 +28,7 @@ function BreakingImage() {
           scrub: true,
           /* once: true, */
         },
-        opacity: 0,
+        opacity: 1,
         duration: 2,
       });
 
@@ -43,7 +43,7 @@ function BreakingImage() {
           /* once: true, */
           toggleActions: "play pause resume none",
         },
-        scale: 7,
+        scale: 4,
       });
 
       gsap.to(text.current, {
@@ -57,7 +57,7 @@ function BreakingImage() {
 
           toggleActions: "play pause resume none",
         },
-        scale: 3,
+        scale: 1.4,
       });
 
       gsap.to(overlay.current, {
@@ -71,7 +71,7 @@ function BreakingImage() {
 
           toggleActions: "play pause resume none",
         },
-        opacity: 0.9,
+        opacity: 0.4,
       });
     });
     return () => ctx.revert();

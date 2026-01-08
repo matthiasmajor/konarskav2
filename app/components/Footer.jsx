@@ -9,7 +9,7 @@ import useActiveLink from "@/Hooks/useActiveLink";
 
 function Footer({ activeLink, setActiveLink }) {
   return (
-    <div className=" flex flex-col sm:grid sm:grid-cols-2 sm:grid-flow-row py-[50px] px-20 bg-slate-100  ">
+    <div className=" flex flex-col sm:grid sm:grid-cols-2 sm:grid-flow-row py-[50px] sm:px-20 px-8 bg-slate-100  ">
       <div>
         <h4 className="row-start-1 text-xl font-bold text-slate-800">
           Joanna <span className="mt-2 text-amber-500">Konarska</span>

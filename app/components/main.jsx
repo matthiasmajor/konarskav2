@@ -29,7 +29,7 @@ export function Main() {
   });
 
   return (
-    <div className=" -z-10 flex flex-col items-center justify-center w-full h-screen overflow-hidden ">
+    <div className=" -z-10 flex-col items-center justify-center w-full h-screen overflow-hidden ">
       <div className="absolute top-0 left-0 w-full -z-10 filtr  ">
         <div className="bg-[url('https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?auto=format&fit=crop&q=80&w=1787&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')] w-full min-h-screen flex items-center bg-cover justify-center bg-center"></div>
       </div>

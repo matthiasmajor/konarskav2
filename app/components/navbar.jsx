@@ -73,11 +73,11 @@ function Navbar({ activeLink, setActiveLink }) {
   return (
     <header className="sticky flex z-[999] px-10 sm:px-0 justify-between sm:justify-around max-h-20 items-center  py-6  text-white">
       <div>
-        <Link href="/" className="">
+        <Link href="/" className="ml-[0px]">
           <Image
             src={Konarska}
             onClick={() => setActiveLink(null)}
-            className="hover:opacity-70 "
+            className="hover:opacity-70 mr-[-160px] scale-150 sm:scale-100 sm:mr-0"
             width={240}
             height={240}
           />
