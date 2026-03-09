@@ -41,10 +41,6 @@ export const NaviList = [
     hash: "Portfolio",
   },
   {
-    item: "Aktualności",
-    hash: "Aktualnosci",
-  },
-  {
     item: "Kontakt",
     hash: "Kontakt",
   },
